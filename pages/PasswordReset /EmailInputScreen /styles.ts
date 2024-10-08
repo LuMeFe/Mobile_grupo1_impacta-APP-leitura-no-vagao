@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     color: theme.colors.primary,
     textAlign: 'center',
     marginVertical: 10,
-    marginBottom: 35
+    marginBottom: 35,
   },
   instructions: {
     fontSize: 14,
@@ -149,5 +149,5 @@ export const styles = StyleSheet.create({
   forgotPasswordLink: {
     color: theme.colors.primary,
     fontWeight: 'bold',
-  }
+  },
 });
