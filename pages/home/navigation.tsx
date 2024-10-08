@@ -93,8 +93,8 @@ export function Home({ navigation }) { // Adicionando `navigation` como prop
       <Text style={styles.text}>Email: {userData?.email}</Text>
       <Button title="Sair" onPress={handleSignOut} />
       {/* Navegação para outras telas */}
-      <Button title="Sobre" onPress={() => navigation.navigate('About')} />
-      <Button title="Contato" onPress={() => navigation.navigate('Contact')} />
+      <Button title="Change Password" onPress={() => navigation.navigate('PasswordReset')} />
+      <Button title="SignIn" onPress={() => navigation.navigate('SignIn')} />
     </View>
   );
 }
